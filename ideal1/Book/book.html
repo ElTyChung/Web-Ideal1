@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./book.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Đặt vé máy bay</h1>
+            <i>500 000 VND/1 người</i>
+        </header>
+        <form action="">
+            <div class="item">
+                <label for="">Hotline hỗ trợ</label>
+                <p><span>Gmail:</span>abc@gmail.com &emsp;<span>SDT:</span>0987654321</p>
+            </div>
+            <div class="item">
+                <label for="">Tên người đặt</label>
+                <div class="form-input">
+                    <input type="text" id="name" class="input" placeholder="...nhập tên người đặt" >
+                    <p class="message"></p>
+                </div>
+            </div>
+            <div class="item">
+                <label for="">Số điện thoại</label>
+                <div class="form-input">     
+                    <input type="text" id="phone" class="input" placeholder="...0987654321">
+                    <p class="message"></p>
+                </div>
+            </div>
+            <div class="item">
+                <label for="">Hãng hàng không</label>
+                <div class="form-input">
+                    <input type="radio" name="name"class="dots">Vietjet
+                    <input type="radio" name="name"class="dots">VietNamAirline
+                    <input type="radio" name="name"class="dots">Jetstart Airways
+                    <p class="message"></p>
+                </div>
+            </div>
+            <div class="item">
+                <label for="">Điểm khởi hành</label>
+                <div class="form-input">
+                    <select name="" id="" class="input">
+                        <option value="">---Chọn địa điểm---</option>
+                        <option value="Hà Nội">Hà Nội</option>
+                        <option value="Nha Trang">Nha Trang</option>
+                        <option value="Đà Nẵng">Đà Nẵng</option>
+                        <option value="Đà Lạt">Đà Lạt</option>
+                        <option value="Côn Đảo">Côn Đảo</option>
+                        <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+                        <option value="Quy Nhơn">Quy Nhơn</option>
+                        <option value="Huế">Huế</option>
+                    </select>
+                    <p class="message"></p>
+                </div>
+            </div>
+
+            <div class="item">
+                <label for="">Ngày đi</label>
+                <div class="form-input">
+                    <input type="date" class="input">
+                    <p class="message"></p>
+                </div>
+
+            </div>
+            <div class="date">
+                <div class="item">
+                    <label for="">Số hành khách</label>
+                    <div class="form-input">
+                        <input id="quantily" type="number" class="input" oninput="myF()">
+                        <p class="message"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <label for="">Chọn khung giờ</label>
+                <div class="form-input">
+                    <select name="" id="" class="input">
+                        <option value="" selected>---chọn khung giờ---</option>
+                        <option value="Trước 8h">Trước 8h</option>
+                        <option value="8h sáng- 12h trưa">8h sáng- 12h trưa</option>
+                        <option value="12h trưa- 6h chiều">12h trưa- 6h chiều</option>
+                        <option value="Sau 6 giờ chiều">Sau 6 giờ chiều</option>
+                    </select>
+                    <p class="message"></p>
+                </div>
+            </div>
+            <div class="item" class="input">
+                <label for="">Dịch vụ</label>
+                <div class="form-input">
+                    <div>
+                        <input type="checkbox" value=100000 name="name"class="dots" oninput="myF()">Đưa đón đến sân bay(100.000VND)
+                        <br>
+                        <br>
+                        <input type="checkbox" value=100000 name="name"class="dots" oninput="myF()">Hộp ngủ(100.000VND)
+                        <br>
+                        <br>
+                        <input type="checkbox" value=50000 name="name"class="dots" oninput="myF()">Vận chuyển hành lí(50.000VND)
+                    </div>
+                </div>
+            </div>
+            <div class="item" class="input">
+                <label for="">Tổng tiền</label>
+                <p id="sum"></p>
+            </div>
+        </form>
+        <button onclick="Myf()">Đặt vé</button>
+    </div>
+    <script src="./book.js"></script>
+</body>
+</html>

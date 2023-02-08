@@ -1,0 +1,83 @@
+@media screen and (max-width:768px)
+{
+    .line 
+    {
+        height:0%;
+        display:none
+    }
+    .fa-bars
+    {
+        opacity: 1;
+        position: absolute;
+        left:35%;
+        top:15%;
+        font-size:20px;
+        color: rgb(255, 255, 255);
+    }
+    .menu
+    {
+        flex-direction: column;
+        padding: 10px 5px 5px 5px ;
+        position:absolute;
+        left:-100%;
+        top:18%;     
+        background-color:rgba(133, 133, 133,0.2);
+        transition: all 0.25s ease;
+    }
+    .open 
+    {
+        position:absolute;
+        left:0%;
+    }
+    .menu li a
+    {
+        color: rgb(255, 255, 255);
+    }  
+}
+
+@media screen and (max-width:426px)
+{
+    .logo
+    {
+        width:20%;
+        border-right: 0px;   
+    }
+    .content
+    {
+        left:25%;
+        top:40%;
+        margin-left:0;
+    }
+    .content h2
+    {
+        width:60%;
+    }
+    .footer
+    {
+        left:0%;
+        height:30px;
+        width:70%;
+    }
+    .footer-design 
+    {
+        display: none;
+    }
+    .place-list-item
+    {
+        min-width:80%;
+    }
+    .place-btn
+    {
+       padding-top: 0px;
+       margin-top:-20px;
+    }
+    .place-btn i
+    {
+        font-size:10px;
+    }
+    .place-btn-circle
+    {     
+        gap:5px;
+
+    }
+}

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="header-wrapper">
+            <div class="logo-wrapper">
+                <div id="logo">
+                    <a href="#"><img src="./img/logo.png" alt=""></a>
+                </div>
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li class="active check"><a href="../Home/Home.html">Trang Chủ</a></li>
+                    <li><a href="../Plane/Plane.html">Phương Tiện</a></li>
+                    <li><a href="#">Đặt Phòng</a></li>
+                    <li><a href="../Place/Place.html">Địa điểm </a></li>
+                    <li><a href="../Book/book.html">Đặt vé</a></li>
+                    <li><a href="#">Phản Hồi</a></li>
+                    <div class="line"></div>
+                </ul>
+            </nav>
+            <div class="header-content">
+                <div class="header-content-heading">
+                    <h1>Đặt Vé</h1>
+                    <h1>Máy Bay Trực Tuyến</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, alias? Voluptates unde nobis, temporibus voluptatibus velit minus impedit,dolor sit amet consectetur adipisicing elit. Expedita, alias? Voluptates unde nobis, temporibus voluptatibus velit minus impedit</p>
+                </div>   
+            </div>
+            <div class="header-content-button">
+                <button>Đặt xe</button>&emsp;
+                <button>Đặt vé máy bay</button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="top">
+            <div class="top-select">
+                <input type="checkbox" value="Một Chiều">&nbsp;Một Chiều&nbsp;
+                <input type="checkbox">&nbsp;Khứ Hồi
+            </div>
+            <div class="top-input-list">
+                <div class="top-input-list-item">
+                   <label>Điểm khởi hành</label>
+                   <input type="text" placeholder="..điểm khởi hành"> 
+                </div>
+                <div class="top-input-list-item">
+                   <label>Điểm đến</label>
+                   <input type="text" placeholder="..điểm đến"> 
+                </div>
+                <div class="top-input-list-item">
+                   <label>Ngày đi</label>
+                   <input type="date"> 
+                </div>
+                <div class="top-input-list-item">
+                   <label>Hành khách</label>
+                   <input type="number" placeholder="..số lượng hành khách"> 
+                </div>
+                <div class="top-input-list-item" id="except">
+                   <button>Tìm kiếm</button> 
+                </div>
+            </div>
+        </div>
+        <section class="content">
+            <div class="content-left">
+                <div class="content-left-item">
+                    <div class="content-left-item_more">
+                        <p>Đặt lại bộ lọc</p>
+                    </div>
+                        <h2>Xem giá</h2><br>
+                        <input type="checkbox">Một hành khách<br><br>
+                        <input type="checkbox">Tất cả hành khách<br><br>
+                        <input type="checkbox">Bao gồm thuế phí
+                </div>
+                <div class="content-left-item">
+                        <h2>Hãng hàng không</h2><br>
+                        <input type="checkbox">Vietnam Airlines<br><br>
+                        <input type="checkbox">Vietjet Air<br><br>
+                        <input type="checkbox">Bamboo AirWays<br><br>
+                        <input type="checkbox">Jetstart Airways
+                </div>
+                <div class="content-left-item">
+                        <h2>Thời gian bay</h2><br>
+                        <input type="checkbox">Trước 8h sáng<br><br>
+                        <input type="checkbox">8h sáng- 12h trưa<br><br>
+                        <input type="checkbox">12h trưa- 6h chiều<br><br>
+                        <input type="checkbox">Sau 6 giờ chiều
+                </div>
+            </div>
+            <div class="content-right">
+                <div class="content-right-sort">
+                    <h2>Sắp xếp theo:</h2>
+                    <div><input type="checkbox">&nbsp;Cất cánh sớm nhất</div>
+                    <div><input type="checkbox">&nbsp;Cất cánh muộn nhất</div>
+                    <div><input type="checkbox">&nbsp;Giá thấp nhất</div>
+                </div>
+                <div class="content-right-list">
+                    <h2>Chọn chuyến bay đi</h2>
+                    <div class="content-right-list-item">
+                        <img src="./img/logo-vietjet-air.png" alt="">
+                        <div class="content-right-list-item_start">
+                           <h2>Hà Nội</h2>
+                           <h3>7h25 am</h3> 
+                        </div>
+                        <img src="./img/icon1.png" alt="">
+                        <div class="content-right-list-item_end">
+                           <h2>Nhà em</h2>
+                           <h3>7h30 am</h3> 
+                        </div>
+                        <div class="content-right-list-item_more">
+                            <h2>1.888.888 VND</h2>
+                            <button>Đặt vé</button>
+                        </div>
+                    </div>
+                    <div class="content-right-list-item">
+                        <img src="./img/logo-vietjet-air.png" alt="">
+                        <div class="content-right-list-item_start">
+                           <h2>Hà Nội</h2>
+                           <h3>7h15 am</h3> 
+                        </div>
+                        <img src="./img/icon1.png" alt="">
+                        <div class="content-right-list-item_end">
+                           <h2>Nhà em</h2>
+                           <h3>7h30 am</h3> 
+                        </div>
+                        <div class="content-right-list-item_more">
+                            <h2>1.888.888 VND</h2>
+                            <button>Đặt vé</button>
+                        </div>
+                    </div>
+                    <div class="content-right-list-item">
+                        <img src="./img/logo-vietjet-air.png" alt="">
+                        <div class="content-right-list-item_start">
+                           <h2>Hà Nội</h2>
+                           <h3>7h25 am</h3> 
+                        </div>
+                        <img src="./img/icon1.png" alt="">
+                        <div class="content-right-list-item_end">
+                           <h2>Nhà em</h2>
+                           <h3>7h30 am</h3> 
+                        </div>
+                        <div class="content-right-list-item_more">
+                            <h2>1.888.888 VND</h2>
+                            <button>Đặt vé</button>
+                        </div>
+                    </div>
+                    <div class="content-right-list-item">
+                        <img src="./img/logo-vietjet-air.png" alt="">
+                        <div class="content-right-list-item_start">
+                           <h2>Hà Nội</h2>
+                           <h3>7h25 am</h3> 
+                        </div>
+                        <img src="./img/icon1.png" alt="">
+                        <div class="content-right-list-item_end">
+                           <h2>Nhà em</h2>
+                           <h3>7h30 am</h3> 
+                        </div>
+                        <div class="content-right-list-item_more">
+                            <h2>1.888.888 VND</h2>
+                            <button>Đặt vé</button>
+                        </div>
+                    </div>
+                    <div class="content-right-list-item">
+                        <img src="./img/logo-vietnamairlines.png" alt="">
+                        <div class="content-right-list-item_start">
+                           <h2>Hà Nội</h2>
+                           <h3>7h25 am</h3> 
+                        </div>
+                        <img src="./img/icon1.png" alt="">
+                        <div class="content-right-list-item_end">
+                           <h2>Nhà em</h2>
+                           <h3>7h30 am</h3> 
+                        </div>
+                        <div class="content-right-list-item_more">
+                            <h2>1.888.888 VND</h2>
+                            <button>Đặt vé</button>
+                        </div>
+                    </div>
+                    <div class="content-right-list-item">
+                        <img src="./img/logo-vietnamairlines.png" alt="">
+                        <div class="content-right-list-item_start">
+                           <h2>Hà Nội</h2>
+                           <h3>7h25 am</h3> 
+                        </div>
+                        <img src="./img/icon1.png" alt="">
+                        <div class="content-right-list-item_end">
+                           <h2>Nhà em</h2>
+                           <h3>7h30 am</h3> 
+                        </div>
+                        <div class="content-right-list-item_more">
+                            <h2>1.888.888 VND</h2>
+                            <button>Đặt vé</button>
+                        </div>
+                    </div>
+                    <div class="content-right-list-item">
+                        <img src="./img/logo-vietnamairlines.png" alt="">
+                        <div class="content-right-list-item_start">
+                           <h2>Hà Nội</h2>
+                           <h3>7h15 am</h3> 
+                        </div>
+                        <img src="./img/icon1.png" alt="">
+                        <div class="content-right-list-item_end">
+                           <h2>Nhà em</h2>
+                           <h3>7h30 am</h3> 
+                        </div>
+                        <div class="content-right-list-item_more">
+                            <h2>1.888.888 VND</h2>
+                            <button>Đặt vé</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="footer-contact">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fas fa-envelope"></i>
+        </div>
+        <div class="footer-design">
+            <img src="./img/icon.png" alt="">           
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, temporibus ad! </p>
+        </div>
+    </footer>
+    <script src="./plane.js"></script>
+</body>
+</html>
